@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563EB;
+  --secondary: #60A5FA;
+  --background: #F9FAFB;
+  --card-radius: 24px;
+}
+
+body {
+  @apply bg-[#F9FAFB] text-gray-900 font-sans;
+}
+
+/* Hiệu ứng Glassmorphism cho Navbar */
+.glass {
+  @apply bg-white/70 backdrop-blur-md border-b border-gray-100;
+}
